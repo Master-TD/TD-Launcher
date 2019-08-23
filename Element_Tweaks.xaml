@@ -8,7 +8,7 @@
              mc:Ignorable="d"
              d:DesignHeight="400" d:DesignWidth="400">
 
-    <Grid Margin="0 100 0 100" Width="760">
+    <Grid Margin="0 100 0 100" Width="760" Height="430">
         <Grid.Background>
             <SolidColorBrush Color="Black" Opacity="0.6"></SolidColorBrush>
         </Grid.Background>
@@ -38,7 +38,7 @@
                             <TextBlock framework:WPFBinder.Frame="RecommendedTweaksCount"></TextBlock>
                         </StackPanel>
                     </Button>
-                    <TextBlock Margin="4 0 0 0" Text="{DynamicResource ChooseTweaks}" VerticalAlignment="Bottom"
+                    <TextBlock Margin="4 0 0 8" Text="{DynamicResource ChooseTweaks}" VerticalAlignment="Bottom"
                                Style="{DynamicResource SmallTextStyle}"></TextBlock>
                 </StackPanel>
 
